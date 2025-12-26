@@ -15,7 +15,7 @@
       "range": "120 miles (193 km)"
     },
     "dDayRole": "Shermans were deployed on all five beaches, with many equipped with DD (Duplex Drive) flotation devices allowing them to swim ashore. At Omaha Beach, most DD tanks sank in rough seas, contributing to the high casualties.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e4/M4_Sherman_tank_-_Flickr_-_Joost_J._Bakker_IJmuiden.jpg",
+    "image": "/images/museum/m4-sherman.jpg",
     "imageCredit": "U.S. Army, Public domain, via Wikimedia Commons"
   },
   {
@@ -34,7 +34,7 @@
       "range": "120 miles (193 km)"
     },
     "dDayRole": "Fireflies were distributed among British and Canadian tank units, typically one per troop of four tanks. They were priority targets for German gunners due to their tank-killing capability.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/ShermanFirefly.jpg/1280px-ShermanFirefly.jpg",
+    "image": "/images/museum/sherman-firefly.jpg",
     "imageCredit": "Hohum, Public domain, via Wikimedia Commons"
   },
   {
@@ -53,7 +53,7 @@
       "range": "130 miles (210 km)"
     },
     "dDayRole": "The 21st Panzer Division, equipped with Panzer IVs, was the only armored unit to counterattack on D-Day. They advanced toward Sword Beach but were stopped by Allied air power and anti-tank guns.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Bundesarchiv_Bild_101I-748-0089-35%2C_Russland%2C_Kolonne_mit_Panzer_IV.jpg/1280px-Bundesarchiv_Bild_101I-748-0089-35%2C_Russland%2C_Kolonne_mit_Panzer_IV.jpg",
+    "image": "/images/museum/panzer-iv.jpg",
     "imageCredit": "Bundesarchiv, Bild 101I-748-0089-35 / Seibold / CC-BY-SA 3.0"
   },
   {
@@ -72,7 +72,7 @@
       "range": "155 miles (250 km)"
     },
     "dDayRole": "Panthers arrived in Normandy after D-Day as reinforcements. Their superior firepower and armor made them formidable opponents in the bocage fighting, where their long gun barrel sometimes became a hindrance in close terrain.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Panther_Ausf._G_1_Bovington.jpg/1280px-Panther_Ausf._G_1_Bovington.jpg",
+    "image": "/images/museum/panther.jpg",
     "imageCredit": "Simon Q from United Kingdom, CC BY 2.0, via Wikimedia Commons"
   },
   {
@@ -91,7 +91,7 @@
       "range": "68 miles (110 km)"
     },
     "dDayRole": "Tiger tanks were deployed in heavy tank battalions. Michael Wittmann's famous action at Villers-Bocage on June 13, 1944, where his Tiger destroyed numerous British vehicles, demonstrated their devastating capability.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Bundesarchiv_Bild_101I-299-1804-07%2C_Michael_Wittmann%2C_vor_Panzer_VI_%28Tiger_I%29.jpg/1280px-Bundesarchiv_Bild_101I-299-1804-07%2C_Michael_Wittmann%2C_vor_Panzer_VI_%28Tiger_I%29.jpg",
+    "image": "/images/museum/tiger-i.jpg",
     "imageCredit": "Bundesarchiv, Bild 101I-299-1804-07 / CC-BY-SA 3.0"
   },
   {
@@ -109,7 +109,7 @@
       "crew": "4"
     },
     "dDayRole": "Thousands of Higgins boats delivered the first waves of assault troops to all five beaches. Their shallow draft allowed them to approach close to shore, and the front ramp allowed rapid disembarkation under fire.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/LCVP_Landing_Craft.jpg/1280px-LCVP_Landing_Craft.jpg",
+    "image": "/images/museum/lcvp-higgins.jpg",
     "imageCredit": "U.S. Navy, Public domain, via Wikimedia Commons"
   },
   {
@@ -127,7 +127,7 @@
       "range": "1,600 miles (2,575 km)"
     },
     "dDayRole": "Over 800 C-47s dropped American paratroopers of the 82nd and 101st Airborne Divisions into Normandy in the early hours of June 6. Many aircraft faced heavy anti-aircraft fire, causing scattered drops.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Douglas_C-47A_Skytrain_%22Drag_%27Em_Oot%22_at_Duxford.jpg/1280px-Douglas_C-47A_Skytrain_%22Drag_%27Em_Oot%22_at_Duxford.jpg",
+    "image": "/images/museum/c47-skytrain.jpg",
     "imageCredit": "Kogo, GFDL, via Wikimedia Commons"
   },
   {
@@ -145,7 +145,7 @@
       "landingSpeed": "100 mph (161 km/h)"
     },
     "dDayRole": "Major John Howard's glider force used Horsas to land within 50 yards of Pegasus Bridge, capturing it intact in a textbook coup de main operation that secured the eastern flank of the invasion.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Horsa_glider.jpg/1280px-Horsa_glider.jpg",
+    "image": "/images/museum/horsa-glider.jpg",
     "imageCredit": "Royal Air Force official photographer, Public domain, via Wikimedia Commons"
   },
   {
@@ -163,7 +163,7 @@
       "effectiveRange": "500 yards (457 m)"
     },
     "dDayRole": "The M1 Garand's semi-automatic action gave American infantry a significant firepower advantage over German troops armed with bolt-action Kar98k rifles, particularly important in the intense beach fighting.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/M1_Garand_rifle_-_USA_-_30-06_-_Arm%C3%A9museum.jpg/1280px-M1_Garand_rifle_-_USA_-_30-06_-_Arm%C3%A9museum.jpg",
+    "image": "/images/museum/m1-garand.jpg",
     "imageCredit": "Armémuseum (The Swedish Army Museum), CC BY-SA 4.0, via Wikimedia Commons"
   },
   {
@@ -181,7 +181,7 @@
       "effectiveRange": "550 yards (500 m)"
     },
     "dDayRole": "German defenders on the beaches and in the fortifications were primarily armed with Kar98k rifles. Despite its slower rate of fire, the rifle's accuracy made German defenders deadly, especially from prepared positions.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Karabiner_98k.jpg/1280px-Karabiner_98k.jpg",
+    "image": "/images/museum/kar98k.jpg",
     "imageCredit": "Armémuseum, CC BY-SA 4.0, via Wikimedia Commons"
   },
   {
@@ -199,7 +199,7 @@
       "effectiveRange": "1,200 yards (1,097 m)"
     },
     "dDayRole": "MG 42s in the beach fortifications caused devastating casualties among Allied troops. At Omaha Beach, well-positioned MG 42s in bunkers created kill zones that pinned down American soldiers for hours.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/MG42_Sideview.jpg/1280px-MG42_Sideview.jpg",
+    "image": "/images/museum/mg42.jpg",
     "imageCredit": "Armémuseum, CC BY-SA 4.0, via Wikimedia Commons"
   },
   {
@@ -217,7 +217,7 @@
       "effectiveRange": "164 yards (150 m)"
     },
     "dDayRole": "Paratroopers and assault troops valued the Thompson for close-quarters fighting in the Norman hedgerows. Its compact size and automatic fire made it ideal for the confused night fighting after the airborne drop.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Thompson_M1A1.jpg/1280px-Thompson_M1A1.jpg",
+    "image": "/images/museum/thompson-smg.jpg",
     "imageCredit": "Autodesz, CC BY-SA 3.0, via Wikimedia Commons"
   },
   {
@@ -235,7 +235,7 @@
       "effectiveRange": "330 yards (300 m)"
     },
     "dDayRole": "Limited numbers of StG 44s were present in Normandy with elite units. The weapon's revolutionary design influenced post-war assault rifle development, including the AK-47 and M16.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/MP_43_%28Sturmgewehr_44_-_StG_44%29.jpg/1280px-MP_43_%28Sturmgewehr_44_-_StG_44%29.jpg",
+    "image": "/images/museum/stg44.jpg",
     "imageCredit": "Bundesarchiv, B 145 Bild-F027553-0009 / Wienke / CC-BY-SA 3.0"
   },
   {
@@ -253,7 +253,7 @@
       "penetration": "200mm armor"
     },
     "dDayRole": "German anti-tank teams armed with Panzerschrecks ambushed Allied armor in the dense hedgerow country. The weapon's ability to penetrate Sherman armor from all angles made every hedgerow a potential death trap.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Rpzb43.jpg/1280px-Rpzb43.jpg",
+    "image": "/images/museum/panzerschreck.jpg",
     "imageCredit": "Museum of Coastal Defence, Public domain, via Wikimedia Commons"
   },
   {
@@ -271,7 +271,7 @@
       "penetration": "76mm armor"
     },
     "dDayRole": "Bazookas were used to knock out German bunkers and machine gun nests on the beaches. While insufficient against heavier German tanks, they proved valuable against lighter vehicles and fortifications.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Bazooka_M1.jpg/1280px-Bazooka_M1.jpg",
+    "image": "/images/museum/bazooka.jpg",
     "imageCredit": "Curiosandrelics, CC BY-SA 4.0, via Wikimedia Commons"
   },
   {
@@ -289,7 +289,7 @@
       "rateOfFire": "15-20 rounds/min"
     },
     "dDayRole": "88mm guns in coastal positions and inland could engage Allied landing craft, tanks, and aircraft. Their high velocity and accuracy made them particularly deadly against Sherman tanks.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/88_mm_Flak_36.jpg/1280px-88_mm_Flak_36.jpg",
+    "image": "/images/museum/88mm-flak.jpg",
     "imageCredit": "Hihiman, CC BY-SA 3.0, via Wikimedia Commons"
   }
 ]

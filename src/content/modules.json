@@ -30,14 +30,14 @@
     "glossaryTerms": ["cossac", "shaef", "fortitude", "mulberry"],
     "images": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Eisenhower_d-day.jpg/800px-Eisenhower_d-day.jpg",
+        "url": "/images/modules/eisenhower-paratroopers.jpg",
         "caption": "General Eisenhower gives the order of the Day to paratroopers in England, June 5, 1944",
         "credit": "U.S. Army, Public domain, via Wikimedia Commons",
         "sourceLink": "https://commons.wikimedia.org/wiki/File:Eisenhower_d-day.jpg",
         "alt": "Eisenhower speaking with paratroopers before D-Day"
       },
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Atlantikwall.png/1280px-Atlantikwall.png",
+        "url": "/images/modules/atlantic-wall-map.jpg",
         "caption": "Map showing the extent of the Atlantic Wall fortifications",
         "credit": "Goran tek-en, CC BY-SA 4.0, via Wikimedia Commons",
         "sourceLink": "https://commons.wikimedia.org/wiki/File:Atlantikwall.png",
@@ -113,21 +113,21 @@
     "glossaryTerms": ["atlantic-wall", "dd-tanks", "lcvp"],
     "images": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Into_the_Jaws_of_Death_23-0455M_edit.jpg/1280px-Into_the_Jaws_of_Death_23-0455M_edit.jpg",
+        "url": "/images/modules/into-jaws-death.jpg",
         "caption": "American troops approaching Omaha Beach on D-Day - one of the most iconic photos of WWII",
         "credit": "Robert F. Sargent, U.S. Coast Guard, Public domain, via Wikimedia Commons",
         "sourceLink": "https://commons.wikimedia.org/wiki/File:Into_the_Jaws_of_Death_23-0455M_edit.jpg",
         "alt": "Troops in landing craft approaching Omaha Beach"
       },
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Normandy_Invasion%2C_June_1944.jpg/1280px-Normandy_Invasion%2C_June_1944.jpg",
+        "url": "/images/modules/normandy-invasion.jpg",
         "caption": "Allied troops landing on Normandy beaches during D-Day",
         "credit": "U.S. National Archives, Public domain",
         "sourceLink": "https://commons.wikimedia.org/wiki/File:Normandy_Invasion,_June_1944.jpg",
         "alt": "Troops and vehicles on Normandy beach"
       },
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/NormandySupply_edit.jpg/1280px-NormandySupply_edit.jpg",
+        "url": "/images/modules/normandy-supply.jpg",
         "caption": "Supplies pour ashore from LSTs at Normandy beach",
         "credit": "U.S. Army, Public domain, via Wikimedia Commons",
         "sourceLink": "https://commons.wikimedia.org/wiki/File:NormandySupply_edit.jpg",
@@ -190,21 +190,21 @@
     "glossaryTerms": ["pathfinders", "glider", "drop-zone"],
     "images": [
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Paratroopers_of_the_Allied_Army_landed_in_France.jpg/1024px-Paratroopers_of_the_Allied_Army_landed_in_France.jpg",
+        "url": "/images/modules/paratroopers-preparing.jpg",
         "caption": "American paratroopers prepare for the D-Day jump",
         "credit": "U.S. Army, Public domain, via Wikimedia Commons",
         "sourceLink": "https://commons.wikimedia.org/wiki/File:Paratroopers_of_the_Allied_Army_landed_in_France.jpg",
         "alt": "Paratroopers preparing for D-Day"
       },
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Horsa_glider.jpg/1280px-Horsa_glider.jpg",
+        "url": "/images/modules/horsa-gliders.jpg",
         "caption": "Horsa gliders used in the D-Day airborne assault",
         "credit": "Royal Air Force, Public domain, via Wikimedia Commons",
         "sourceLink": "https://commons.wikimedia.org/wiki/File:Horsa_glider.jpg",
         "alt": "Horsa gliders on airfield"
       },
       {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/John_Steele_church.jpg/800px-John_Steele_church.jpg",
+        "url": "/images/modules/john-steele-church.jpg",
         "caption": "Memorial dummy on Sainte-Mere-Eglise church representing Private John Steele",
         "credit": "Romain Bréget, CC BY-SA 4.0, via Wikimedia Commons",
         "sourceLink": "https://commons.wikimedia.org/wiki/File:John_Steele_church.jpg",

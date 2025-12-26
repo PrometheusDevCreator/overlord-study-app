@@ -3,7 +3,7 @@
     "id": "invasion-overview",
     "title": "D-Day Invasion Overview Map",
     "description": "Overview map showing the five invasion beaches and the routes taken by Allied forces on June 6, 1944. This map shows the assault areas, airborne drop zones, and naval approach routes.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Normandy_Invasion_June_1944.jpg/1280px-Normandy_Invasion_June_1944.jpg",
+    "image": "/images/maps/invasion-overview.jpg",
     "credit": "U.S. Military, Public domain, via Wikimedia Commons",
     "category": "overview",
     "relatedModules": ["planning-overlord", "d-day-beaches"]
@@ -12,7 +12,7 @@
     "id": "beach-sectors",
     "title": "Beach Sectors and Landing Zones",
     "description": "Detailed map of the five landing beaches showing individual sectors (Easy Red, Dog Green, etc.) and assigned units. Understanding the beach sectors helps explain the varied experiences of different units.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/D-day_assault_routes_into_europe.jpg/1280px-D-day_assault_routes_into_europe.jpg",
+    "image": "/images/maps/beach-sectors.jpg",
     "credit": "U.S. Army Center of Military History, Public domain, via Wikimedia Commons",
     "category": "beaches",
     "relatedModules": ["d-day-beaches"]
@@ -21,7 +21,7 @@
     "id": "airborne-drop-zones",
     "title": "Airborne Drop Zones",
     "description": "Map showing the planned and actual drop zones for American 82nd and 101st Airborne Divisions on the Cotentin Peninsula, and British 6th Airborne Division east of the Orne River.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/US_airborne_landings_in_Normandy.png/1024px-US_airborne_landings_in_Normandy.png",
+    "image": "/images/maps/airborne-drop-zones.jpg",
     "credit": "U.S. Army, Public domain, via Wikimedia Commons",
     "category": "airborne",
     "relatedModules": ["airborne-operations"]
@@ -30,7 +30,7 @@
     "id": "omaha-beach",
     "title": "Omaha Beach Assault Map",
     "description": "Detailed map of Omaha Beach showing the German defensive positions, beach obstacles, and American assault routes. This map helps explain why Omaha was the bloodiest beach.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Omaha_Beach_defenses.jpg/1280px-Omaha_Beach_defenses.jpg",
+    "image": "/images/maps/omaha-beach.jpg",
     "credit": "U.S. Army, Public domain, via Wikimedia Commons",
     "category": "beaches",
     "relatedModules": ["d-day-beaches"]
@@ -39,7 +39,7 @@
     "id": "utah-beach",
     "title": "Utah Beach Landing Map",
     "description": "Map of the Utah Beach sector showing the actual landing site (displaced by currents) and the planned objectives including Sainte-Mère-Église and the causeway exits.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Utah_Beach.jpg/1024px-Utah_Beach.jpg",
+    "image": "/images/maps/utah-beach.jpg",
     "credit": "U.S. Army, Public domain, via Wikimedia Commons",
     "category": "beaches",
     "relatedModules": ["d-day-beaches"]
@@ -48,7 +48,7 @@
     "id": "atlantic-wall",
     "title": "Atlantic Wall Fortifications",
     "description": "Map showing the extent of German Atlantic Wall defenses along the French coast. The map illustrates why the Pas-de-Calais was more heavily defended than Normandy.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Atlantikwall.png/1280px-Atlantikwall.png",
+    "image": "/images/maps/atlantic-wall.jpg",
     "credit": "Goran tek-en, CC BY-SA 4.0, via Wikimedia Commons",
     "category": "german",
     "relatedModules": ["planning-overlord", "d-day-beaches"]
@@ -57,7 +57,7 @@
     "id": "british-beaches",
     "title": "Gold, Juno, and Sword Beaches",
     "description": "Map of the British and Canadian landing sectors showing Gold, Juno, and Sword beaches, with planned objectives including the capture of Caen.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/British_beaches_on_D-Day.jpg/1280px-British_beaches_on_D-Day.jpg",
+    "image": "/images/maps/british-beaches.jpg",
     "credit": "U.S. Army, Public domain, via Wikimedia Commons",
     "category": "beaches",
     "relatedModules": ["d-day-beaches"]
@@ -66,7 +66,7 @@
     "id": "normandy-campaign",
     "title": "Normandy Campaign Overview",
     "description": "Map showing the progression of the Normandy campaign from D-Day through Operation Cobra and the breakout. Includes major battle locations and the eventual encirclement at Falaise.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Normandy_Campaign_Map.jpg/1280px-Normandy_Campaign_Map.jpg",
+    "image": "/images/maps/normandy-campaign.jpg",
     "credit": "U.S. Army Center of Military History, Public domain, via Wikimedia Commons",
     "category": "campaign",
     "relatedModules": []
@@ -75,7 +75,7 @@
     "id": "pegasus-bridge",
     "title": "Pegasus Bridge Operation",
     "description": "Detailed map of the British glider assault on Pegasus Bridge (Bénouville Bridge) and the Orne River Bridge, showing glider landing positions and the assault routes.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Pegasus_Bridge_Operation.svg/1024px-Pegasus_Bridge_Operation.svg.png",
+    "image": "/images/maps/pegasus-bridge.jpg",
     "credit": "Noclador, CC BY-SA 4.0, via Wikimedia Commons",
     "category": "airborne",
     "relatedModules": ["airborne-operations"]
@@ -84,7 +84,7 @@
     "id": "mulberry-harbors",
     "title": "Mulberry Harbor Locations",
     "description": "Map showing the locations of the two Mulberry artificial harbors: Mulberry A at Omaha Beach (destroyed by storm) and Mulberry B at Arromanches (Gold Beach).",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Mulberry_harbour_map.svg/1024px-Mulberry_harbour_map.svg.png",
+    "image": "/images/maps/mulberry-harbors.jpg",
     "credit": "Public domain, via Wikimedia Commons",
     "category": "logistics",
     "relatedModules": ["planning-overlord"]
