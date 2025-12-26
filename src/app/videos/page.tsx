@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { videos } from '@/lib/content-loader';
-import ImageWithFallback from '@/components/ImageWithFallback';
+import VideoThumbnail from '@/components/VideoThumbnail';
 
 const categories = [
   { id: 'all', label: 'All Videos' },
@@ -55,23 +55,16 @@ export default function VideosPage() {
                 className="card overflow-hidden group hover:border-[var(--accent-gold)]/50 transition-all"
               >
                 <div className="relative aspect-video bg-[var(--background-secondary)]">
-                  <ImageWithFallback
-                    src={video.thumbnail}
-                    alt={video.title}
-                    className="w-full h-full object-cover"
-                    fallbackText={video.channel}
+                  <VideoThumbnail
+                    videoId={getYouTubeId(video.url)}
+                    title={video.title}
+                    channel={video.channel}
+                    className="w-full h-full"
                   />
-                  <div className="absolute inset-0 flex items-center justify-center bg-black/40 group-hover:bg-black/20 transition-colors">
-                    <div className="w-16 h-16 rounded-full bg-red-600 flex items-center justify-center">
-                      <svg className="w-8 h-8 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M8 5v14l11-7z" />
-                      </svg>
-                    </div>
-                  </div>
-                  <span className="absolute bottom-2 right-2 bg-black/80 text-white text-xs px-2 py-1 rounded">
+                  <span className="absolute bottom-2 right-2 bg-black/80 text-white text-xs px-2 py-1 rounded z-30">
                     {video.duration}
                   </span>
-                  <span className="absolute top-2 left-2 bg-[var(--accent-gold)] text-black text-xs px-2 py-1 rounded font-bold">
+                  <span className="absolute top-2 left-2 bg-[var(--accent-gold)] text-black text-xs px-2 py-1 rounded font-bold z-30">
                     RECOMMENDED
                   </span>
                 </div>
@@ -127,24 +120,17 @@ export default function VideosPage() {
               className="card overflow-hidden group hover:border-[var(--accent-gold)]/50 transition-all"
             >
               <div className="relative aspect-video bg-[var(--background-secondary)]">
-                <ImageWithFallback
-                  src={video.thumbnail}
-                  alt={video.title}
-                  className="w-full h-full object-cover"
-                  fallbackText={video.channel}
+                <VideoThumbnail
+                  videoId={getYouTubeId(video.url)}
+                  title={video.title}
+                  channel={video.channel}
+                  className="w-full h-full"
                 />
-                <div className="absolute inset-0 flex items-center justify-center bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity">
-                  <div className="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center">
-                    <svg className="w-6 h-6 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M8 5v14l11-7z" />
-                    </svg>
-                  </div>
-                </div>
-                <span className="absolute bottom-2 right-2 bg-black/80 text-white text-xs px-2 py-1 rounded">
+                <span className="absolute bottom-2 right-2 bg-black/80 text-white text-xs px-2 py-1 rounded z-30">
                   {video.duration}
                 </span>
                 {video.recommended && (
-                  <span className="absolute top-2 left-2 bg-[var(--accent-gold)] text-black text-xs px-2 py-1 rounded font-bold">
+                  <span className="absolute top-2 left-2 bg-[var(--accent-gold)] text-black text-xs px-2 py-1 rounded font-bold z-30">
                     RECOMMENDED
                   </span>
                 )}

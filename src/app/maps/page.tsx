@@ -267,11 +267,10 @@ export default function MapsPage() {
               {/* Animated Map Display */}
               <div className="relative aspect-[16/9] bg-[var(--background-secondary)] rounded-lg overflow-hidden mb-4">
                 {/* Background map image */}
-                <ImageWithFallback
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Normandy_Invasion_June_1944.jpg/1280px-Normandy_Invasion_June_1944.jpg"
+                <img
+                  src="/images/maps/invasion-overview.jpg"
                   alt="Normandy Map"
-                  className="absolute inset-0 w-full h-full object-cover opacity-40"
-                  fallbackText="D-Day Map"
+                  className="absolute inset-0 w-full h-full object-cover opacity-60"
                 />
 
                 {/* Overlay with positions */}
