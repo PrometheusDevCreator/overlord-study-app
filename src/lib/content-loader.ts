@@ -22,7 +22,7 @@ export const sources: Source[] = sourcesData as Source[];
 export const flashcards: Flashcard[] = flashcardsData as Flashcard[];
 export const learningPaths: LearningPath[] = learningPathsData as LearningPath[];
 export const normandySites: NormandySite[] = normandySitesData as NormandySite[];
-export const museumItems: MuseumItem[] = museumData as MuseumItem[];
+export const museumItems: MuseumItem[] = museumData as unknown as MuseumItem[];
 export const historicalMaps: HistoricalMap[] = historicalMapsData as HistoricalMap[];
 export const videos: YouTubeVideo[] = videosData as YouTubeVideo[];
 
