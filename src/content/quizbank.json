@@ -1,0 +1,122 @@
+[
+  {
+    "id": "q1-1",
+    "moduleId": "planning-overlord",
+    "type": "mcq",
+    "question": "Why was Normandy chosen over Pas-de-Calais as the invasion site?",
+    "options": [
+      "Normandy was closer to England",
+      "Pas-de-Calais was more heavily defended and the Germans expected attack there",
+      "Normandy had better weather conditions",
+      "The French Resistance was stronger in Normandy"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pas-de-Calais was the shortest crossing point and Germany expected the invasion there, making it heavily fortified. Normandy offered the element of surprise and less formidable defenses.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q1-2",
+    "moduleId": "planning-overlord",
+    "type": "mcq",
+    "question": "What was Operation Fortitude?",
+    "options": [
+      "The naval bombardment plan",
+      "A deception operation using fake armies and false intelligence",
+      "The construction of Mulberry harbors",
+      "The airborne assault plan"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Operation Fortitude was an elaborate deception that convinced Germany the main invasion would target Pas-de-Calais, using fake army units, inflatable tanks, and false radio traffic.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q1-3",
+    "moduleId": "planning-overlord",
+    "type": "mcq",
+    "question": "What were Mulberry Harbors?",
+    "options": [
+      "Natural ports in Normandy",
+      "German defensive installations",
+      "Portable artificial harbors for supplying the invasion",
+      "Code name for naval vessels"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Mulberry Harbors were ingenious portable artificial harbors towed across the Channel to enable supply operations until a real port could be captured.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q2-1",
+    "moduleId": "d-day-beaches",
+    "type": "mcq",
+    "question": "Which beach experienced the heaviest Allied casualties on D-Day?",
+    "options": [
+      "Utah Beach",
+      "Omaha Beach",
+      "Gold Beach",
+      "Sword Beach"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Omaha Beach, nicknamed 'Bloody Omaha,' saw the worst fighting with nearly 2,400 American casualties. The beach faced steep cliffs and the experienced German 352nd Infantry Division.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q2-2",
+    "moduleId": "d-day-beaches",
+    "type": "mcq",
+    "question": "Which country was responsible for the assault on Juno Beach?",
+    "options": [
+      "United States",
+      "United Kingdom",
+      "Canada",
+      "France"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Juno Beach was Canada's assault sector, where the 3rd Canadian Infantry Division landed and ultimately advanced the farthest inland of any beach on D-Day.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q2-3",
+    "moduleId": "d-day-beaches",
+    "type": "mcq",
+    "question": "What fortunate accident helped the landing at Utah Beach?",
+    "options": [
+      "The weather cleared unexpectedly",
+      "German defenders surrendered early",
+      "Strong currents pushed troops to a less defended area",
+      "Paratroopers had already captured the beach"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Strong currents pushed the landing craft about 2,000 yards south of the intended target, where German defenses were lighter, resulting in far fewer casualties than expected.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q3-1",
+    "moduleId": "airborne-operations",
+    "type": "mcq",
+    "question": "What was the first French town liberated on D-Day?",
+    "options": [
+      "Caen",
+      "Cherbourg",
+      "Sainte-Mere-Eglise",
+      "Bayeux"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Sainte-Mere-Eglise was liberated by the 82nd Airborne Division in the early morning hours, becoming the first French town freed from German occupation on D-Day.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q3-2",
+    "moduleId": "airborne-operations",
+    "type": "mcq",
+    "question": "What was the objective of the British glider attack on Pegasus Bridge?",
+    "options": [
+      "To destroy the bridge to trap German forces",
+      "To capture the bridges intact over the Caen Canal and Orne River",
+      "To establish an artillery position",
+      "To rescue French prisoners"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Major John Howard's glider force captured Pegasus Bridge and the Orne River bridge intact, securing vital crossings that prevented German reinforcements from reaching the beaches.",
+    "difficulty": "medium"
+  }
+]

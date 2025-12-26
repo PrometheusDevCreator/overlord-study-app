@@ -1,0 +1,92 @@
+[
+  {
+    "id": "cossac",
+    "term": "COSSAC",
+    "definition": "Chief of Staff to the Supreme Allied Commander. The planning organization that developed the initial invasion plans before SHAEF was established.",
+    "relatedModules": ["planning-overlord"]
+  },
+  {
+    "id": "shaef",
+    "term": "SHAEF",
+    "definition": "Supreme Headquarters Allied Expeditionary Force. The command structure led by General Eisenhower that oversaw Operation Overlord.",
+    "relatedModules": ["planning-overlord"]
+  },
+  {
+    "id": "fortitude",
+    "term": "Operation Fortitude",
+    "definition": "The Allied deception operation that convinced Germany the main invasion would target Pas-de-Calais rather than Normandy.",
+    "relatedModules": ["planning-overlord"]
+  },
+  {
+    "id": "mulberry",
+    "term": "Mulberry Harbors",
+    "definition": "Portable artificial harbors developed by the British to supply forces over the Normandy beaches before a port could be captured.",
+    "relatedModules": ["planning-overlord"]
+  },
+  {
+    "id": "atlantic-wall",
+    "term": "Atlantic Wall",
+    "definition": "The extensive system of German coastal fortifications stretching from Norway to Spain, designed to repel an Allied invasion.",
+    "relatedModules": ["d-day-beaches"]
+  },
+  {
+    "id": "dd-tanks",
+    "term": "DD Tanks",
+    "definition": "Duplex Drive tanks - Sherman tanks fitted with flotation screens that allowed them to swim ashore and provide close fire support.",
+    "relatedModules": ["d-day-beaches"]
+  },
+  {
+    "id": "lcvp",
+    "term": "LCVP (Higgins Boat)",
+    "definition": "Landing Craft, Vehicle, Personnel. The iconic flat-bottomed boats that carried troops from ships to the invasion beaches.",
+    "relatedModules": ["d-day-beaches"]
+  },
+  {
+    "id": "pathfinders",
+    "term": "Pathfinders",
+    "definition": "Elite paratroopers who jumped ahead of the main force to mark drop zones with lights and radar beacons.",
+    "relatedModules": ["airborne-operations"]
+  },
+  {
+    "id": "glider",
+    "term": "Glider",
+    "definition": "Engineless aircraft towed by powered planes and released to land troops, vehicles, and equipment silently behind enemy lines.",
+    "relatedModules": ["airborne-operations"]
+  },
+  {
+    "id": "drop-zone",
+    "term": "Drop Zone (DZ)",
+    "definition": "A designated area where paratroopers and their equipment were to land after jumping from aircraft.",
+    "relatedModules": ["airborne-operations"]
+  },
+  {
+    "id": "bocage",
+    "term": "Bocage",
+    "definition": "The Norman hedgerow countryside of small fields bordered by dense hedges and sunken lanes, which heavily favored defensive fighting.",
+    "relatedModules": []
+  },
+  {
+    "id": "overlord",
+    "term": "Operation Overlord",
+    "definition": "The codename for the Allied invasion of Normandy and the larger battle for the region in summer 1944.",
+    "relatedModules": ["planning-overlord"]
+  },
+  {
+    "id": "neptune",
+    "term": "Operation Neptune",
+    "definition": "The codename for the naval assault phase of D-Day, including the channel crossing and beach landings.",
+    "relatedModules": ["d-day-beaches"]
+  },
+  {
+    "id": "h-hour",
+    "term": "H-Hour",
+    "definition": "The designated time for the start of operations on D-Day. Different beaches had different H-Hours based on tidal conditions.",
+    "relatedModules": ["d-day-beaches"]
+  },
+  {
+    "id": "resistance",
+    "term": "French Resistance",
+    "definition": "Networks of French civilians who fought against German occupation through sabotage, intelligence gathering, and armed action.",
+    "relatedModules": ["planning-overlord"]
+  }
+]

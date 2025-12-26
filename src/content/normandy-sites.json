@@ -1,0 +1,122 @@
+[
+  {
+    "id": "omaha-beach",
+    "name": "Omaha Beach",
+    "type": "beach",
+    "location": "Colleville-sur-Mer, Normandy",
+    "description": "The bloodiest of the five D-Day landing beaches, where American forces faced fierce German resistance. The beach stretches for about 5 miles and features dramatic bluffs that German defenders used to devastating effect.",
+    "whatItTeaches": "The human cost of the invasion and the extraordinary courage required to establish a foothold. Standing here helps you understand why it was called 'Bloody Omaha' and appreciate the sacrifice of the 2,400 Americans who fell here on June 6, 1944.",
+    "visitTips": "Visit at low tide to walk the same ground the soldiers crossed. The German bunkers at WN62 are still visible. Arrive early morning for contemplative atmosphere.",
+    "website": "https://www.normandie-tourisme.fr"
+  },
+  {
+    "id": "american-cemetery",
+    "name": "Normandy American Cemetery",
+    "type": "cemetery",
+    "location": "Colleville-sur-Mer, Normandy",
+    "description": "The resting place of 9,388 American military dead, overlooking Omaha Beach. The white marble headstones are arranged in perfect arcs on 172 acres of immaculately maintained grounds ceded to the United States in perpetuity.",
+    "whatItTeaches": "The scale of American sacrifice in the liberation of Europe. The visitor center provides context with exhibits on the invasion, and Rangers conduct regular tours explaining individual stories of those buried here.",
+    "visitTips": "Arrive for the flag-lowering ceremony at sunset for a moving experience. The visitor center opens 30 minutes before the cemetery. Staff can help locate specific graves.",
+    "website": "https://www.abmc.gov/normandy"
+  },
+  {
+    "id": "utah-beach",
+    "name": "Utah Beach",
+    "type": "beach",
+    "location": "Sainte-Marie-du-Mont, Normandy",
+    "description": "The westernmost D-Day beach where the American 4th Infantry Division landed. Paradoxically, a navigation error placed troops 2,000 yards south of their intended position, resulting in lighter casualties due to weaker defenses.",
+    "whatItTeaches": "How adaptability in battle can turn potential disaster into success. Brigadier General Theodore Roosevelt Jr.'s decision to start the war from where they landed rather than the planned position demonstrates battlefield leadership.",
+    "visitTips": "The Utah Beach Museum is excellent, housed in a German bunker. The beach itself is wider and flatter than Omaha, making it easier to visualize the landing craft approach.",
+    "website": "https://www.utah-beach.com"
+  },
+  {
+    "id": "pointe-du-hoc",
+    "name": "Pointe du Hoc",
+    "type": "battlefield",
+    "location": "Cricqueville-en-Bessin, Normandy",
+    "description": "A 100-foot cliff between Utah and Omaha beaches where U.S. Army Rangers scaled the cliffs under fire to destroy German gun emplacements. The lunar landscape of bomb craters remains largely untouched.",
+    "whatItTeaches": "The extreme lengths Allied planners went to neutralize threats to the invasion fleet, and the courage of the 225 Rangers who climbed these cliffs. Only 90 were still able to fight after two days of combat.",
+    "visitTips": "Walk among the preserved craters and bunkers. The new visitor center explains the Ranger mission. Be careful near cliff edges. Wear sturdy shoes for uneven terrain.",
+    "website": "https://www.abmc.gov/pointe-du-hoc"
+  },
+  {
+    "id": "memorial-caen-museum",
+    "name": "Mémorial de Caen",
+    "type": "museum",
+    "location": "Caen, Normandy",
+    "description": "One of Europe's great WWII museums, covering the causes of war, occupation, D-Day, and the Battle of Normandy. Built on the site of a German command bunker, it takes a thoughtful approach to presenting history.",
+    "whatItTeaches": "The broader context of D-Day within WWII, French experiences under occupation, and the civilian toll of the liberation campaign. Excellent for understanding the French perspective.",
+    "visitTips": "Allow at least 4 hours. The museum offers guided D-Day tours. The Cold War section is also excellent. Restaurant on-site. Located on the northern edge of Caen.",
+    "website": "https://www.memorial-caen.fr"
+  },
+  {
+    "id": "pegasus-bridge",
+    "name": "Pegasus Bridge",
+    "type": "memorial",
+    "location": "Bénouville, Normandy",
+    "description": "Site of the daring British glider assault that captured crucial bridges over the Caen Canal and Orne River in the first minutes of D-Day. The original bridge is preserved at the museum; a replica spans the canal.",
+    "whatItTeaches": "The precision and audacity of airborne operations. Major John Howard's glider landed within 50 yards of the bridge at 12:16 AM on June 6, 1944—the first Allied soldiers to land in occupied France on D-Day.",
+    "visitTips": "Visit Café Gondrée, the first building liberated in France, still run by the same family. The museum is excellent for British airborne operations. Good starting point for a D-Day tour.",
+    "website": "https://www.memorial-pegasus.com"
+  },
+  {
+    "id": "juno-beach-centre",
+    "name": "Juno Beach Centre",
+    "type": "museum",
+    "location": "Courseulles-sur-Mer, Normandy",
+    "description": "Canada's D-Day museum on the beach where 14,000 Canadians landed on June 6. The modern facility tells the story of Canada's contribution to victory through interactive exhibits and personal testimonies.",
+    "whatItTeaches": "Canada's often-underappreciated role in D-Day and the liberation of Europe. Canadians faced some of the heaviest resistance and advanced further inland than any other Allied force on D-Day.",
+    "visitTips": "Canadian student guides offer excellent tours in summer. The Juno Beach Park allows you to explore preserved German bunkers. Beach walks help visualize the landing.",
+    "website": "https://www.junobeach.org"
+  },
+  {
+    "id": "arromanches",
+    "name": "Arromanches & Mulberry Harbour",
+    "type": "beach",
+    "location": "Arromanches-les-Bains, Normandy",
+    "description": "Site of one of two prefabricated Mulberry harbours built to supply the invasion forces. Remnants of the artificial port remain visible at low tide, a testament to Allied engineering ingenuity.",
+    "whatItTeaches": "The logistical challenge of sustaining an invasion force and the innovative solutions developed. Over 2.5 million men, 500,000 vehicles, and 4 million tons of supplies came through these harbours.",
+    "visitTips": "Visit the 360-degree cinema for excellent archive footage. At low tide, walk out to explore the caisson remains. The Musée du Débarquement overlooks the harbour remnants.",
+    "website": "https://www.musee-arromanches.fr"
+  },
+  {
+    "id": "sainte-mere-eglise",
+    "name": "Sainte-Mère-Église",
+    "type": "memorial",
+    "location": "Sainte-Mère-Église, Normandy",
+    "description": "The first French town liberated by American paratroopers in the early hours of D-Day. The church famously features a parachute on its steeple commemorating paratrooper John Steele, who became tangled there during the assault.",
+    "whatItTeaches": "The chaos and courage of American airborne operations on D-Day night. The Airborne Museum is one of the best, with a C-47 aircraft and immersive exhibits on paratrooper experiences.",
+    "visitTips": "The church is worth visiting; the stained glass window depicts the Virgin Mary surrounded by paratroopers. The Airborne Museum warrants 2-3 hours. The town square is where the action happened.",
+    "website": "https://www.airborne-museum.org"
+  },
+  {
+    "id": "german-cemetery",
+    "name": "La Cambe German War Cemetery",
+    "type": "cemetery",
+    "location": "La Cambe, Normandy",
+    "description": "The largest German war cemetery in Normandy, containing over 21,000 graves. The somber design with dark stone markers and grouped graves contrasts starkly with the American cemetery, inviting reflection on the human cost of war for all participants.",
+    "whatItTeaches": "The universal tragedy of war. Many buried here were young conscripts. The cemetery encourages reflection on how ordinary Germans became caught up in the Nazi war machine.",
+    "visitTips": "Visit after the American cemetery for contrast. The visitor center provides context. Less visited than Allied cemeteries, it offers a contemplative atmosphere.",
+    "website": "https://www.volksbund.de"
+  },
+  {
+    "id": "longues-sur-mer",
+    "name": "Longues-sur-Mer Battery",
+    "type": "battlefield",
+    "location": "Longues-sur-Mer, Normandy",
+    "description": "The only D-Day German battery with its guns still in position. Four 150mm naval guns in concrete casemates threatened the invasion fleet and were engaged by battleships and bombers before being captured by British forces.",
+    "whatItTeaches": "German coastal defenses and the Atlantic Wall concept. The observation post on the cliff edge shows how defenders could direct fire onto approaching ships.",
+    "visitTips": "Free to visit and walk through. The cliff-top observation post offers spectacular views. Good for photography enthusiasts. Often less crowded than other sites.",
+    "website": "https://www.normandie-tourisme.fr"
+  },
+  {
+    "id": "bayeux-tapestry",
+    "name": "Bayeux & Tapestry Museum",
+    "type": "museum",
+    "location": "Bayeux, Normandy",
+    "description": "The first major town liberated in the invasion, Bayeux survived largely undamaged. Beyond the famous tapestry depicting the 1066 Norman Conquest of England, the town offers the MAHB museum covering D-Day and the Battle of Normandy.",
+    "whatItTeaches": "How liberation affected a French town. Bayeux shows what Normandy towns looked like before destruction. The parallel between 1066 and 1944 invasions across the Channel adds historical depth.",
+    "visitTips": "Combine the Tapestry Museum with MAHB and the British Military Cemetery. Bayeux makes an excellent base for exploring the D-Day sites. Beautiful medieval center with good restaurants.",
+    "website": "https://www.bayeuxmuseum.com"
+  }
+]

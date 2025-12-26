@@ -1,0 +1,139 @@
+[
+  {
+    "id": "fc-001",
+    "front": "What date was D-Day?",
+    "back": "June 6, 1944",
+    "category": "date",
+    "moduleId": "planning-overlord"
+  },
+  {
+    "id": "fc-002",
+    "front": "What was the codename for the Allied invasion of Normandy?",
+    "back": "Operation Overlord",
+    "category": "fact",
+    "moduleId": "planning-overlord"
+  },
+  {
+    "id": "fc-003",
+    "front": "Who was the Supreme Allied Commander for D-Day?",
+    "back": "General Dwight D. Eisenhower",
+    "category": "person",
+    "moduleId": "planning-overlord"
+  },
+  {
+    "id": "fc-004",
+    "front": "What were the names of the five D-Day beaches?",
+    "back": "Utah, Omaha, Gold, Juno, and Sword",
+    "category": "fact",
+    "moduleId": "d-day-beaches"
+  },
+  {
+    "id": "fc-005",
+    "front": "Which beach was nicknamed 'Bloody Omaha'?",
+    "back": "Omaha Beach - where American forces suffered the heaviest casualties",
+    "category": "location",
+    "moduleId": "d-day-beaches"
+  },
+  {
+    "id": "fc-006",
+    "front": "What country's forces landed at Juno Beach?",
+    "back": "Canada (3rd Canadian Infantry Division)",
+    "category": "fact",
+    "moduleId": "d-day-beaches"
+  },
+  {
+    "id": "fc-007",
+    "front": "What was Operation Fortitude?",
+    "back": "The Allied deception operation that convinced Germany the main invasion would target Pas-de-Calais",
+    "category": "fact",
+    "moduleId": "planning-overlord"
+  },
+  {
+    "id": "fc-008",
+    "front": "What was the first French town liberated on D-Day?",
+    "back": "Sainte-Mere-Eglise (by the 82nd Airborne Division)",
+    "category": "location",
+    "moduleId": "airborne-operations"
+  },
+  {
+    "id": "fc-009",
+    "front": "What is Pegasus Bridge?",
+    "back": "A bridge over the Caen Canal captured by British glider troops in a daring night assault",
+    "category": "location",
+    "moduleId": "airborne-operations"
+  },
+  {
+    "id": "fc-010",
+    "front": "How many Allied troops landed on D-Day?",
+    "back": "Approximately 156,000 troops",
+    "category": "fact",
+    "moduleId": "d-day-beaches"
+  },
+  {
+    "id": "fc-011",
+    "front": "What were Mulberry Harbors?",
+    "back": "Portable artificial harbors towed to Normandy to supply the invasion force",
+    "category": "glossary",
+    "moduleId": "planning-overlord"
+  },
+  {
+    "id": "fc-012",
+    "front": "What was the Atlantic Wall?",
+    "back": "The system of German coastal fortifications from Norway to Spain",
+    "category": "glossary",
+    "moduleId": "d-day-beaches"
+  },
+  {
+    "id": "fc-013",
+    "front": "What were DD Tanks?",
+    "back": "Duplex Drive tanks - Sherman tanks with flotation screens that could swim to shore",
+    "category": "glossary",
+    "moduleId": "d-day-beaches"
+  },
+  {
+    "id": "fc-014",
+    "front": "What is bocage?",
+    "back": "Norman hedgerow countryside with small fields bordered by dense hedges and sunken lanes",
+    "category": "glossary"
+  },
+  {
+    "id": "fc-015",
+    "front": "Who led the glider assault on Pegasus Bridge?",
+    "back": "Major John Howard",
+    "category": "person",
+    "moduleId": "airborne-operations"
+  },
+  {
+    "id": "fc-016",
+    "front": "Which American general's parachute caught on a church steeple at Sainte-Mere-Eglise?",
+    "back": "Private John Steele (not a general - this is a trick question!)",
+    "category": "person",
+    "moduleId": "airborne-operations"
+  },
+  {
+    "id": "fc-017",
+    "front": "When was Paris liberated?",
+    "back": "August 25, 1944",
+    "category": "date"
+  },
+  {
+    "id": "fc-018",
+    "front": "What was SHAEF?",
+    "back": "Supreme Headquarters Allied Expeditionary Force - the command structure for Operation Overlord",
+    "category": "glossary",
+    "moduleId": "planning-overlord"
+  },
+  {
+    "id": "fc-019",
+    "front": "Which beach did American forces land furthest south?",
+    "back": "Utah Beach (westernmost American beach)",
+    "category": "location",
+    "moduleId": "d-day-beaches"
+  },
+  {
+    "id": "fc-020",
+    "front": "What was Operation Cobra?",
+    "back": "The American breakout operation from Normandy, launched July 25, 1944",
+    "category": "fact"
+  }
+]

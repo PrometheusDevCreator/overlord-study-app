@@ -1,0 +1,180 @@
+[
+  {
+    "id": "iwm-dday",
+    "type": "museum",
+    "title": "Imperial War Museums - D-Day Collection",
+    "publisher": "Imperial War Museums",
+    "url": "https://www.iwm.org.uk/history/d-day",
+    "accessDate": "2024",
+    "description": "Comprehensive collection of D-Day artifacts, photographs, and first-hand accounts from the Imperial War Museums."
+  },
+  {
+    "id": "memorial-caen",
+    "type": "museum",
+    "title": "Mémorial de Caen",
+    "publisher": "Mémorial de Caen",
+    "url": "https://www.memorial-caen.fr",
+    "accessDate": "2024",
+    "description": "Major museum and memorial dedicated to the history of WWII and the Battle of Normandy, located in Caen, France."
+  },
+  {
+    "id": "nara-dday",
+    "type": "archive",
+    "title": "National Archives - D-Day Records",
+    "publisher": "U.S. National Archives",
+    "url": "https://www.archives.gov/research/military/ww2/d-day",
+    "accessDate": "2024",
+    "description": "Official U.S. government records, photographs, and documents related to Operation Overlord."
+  },
+  {
+    "id": "cwgc",
+    "type": "website",
+    "title": "Commonwealth War Graves Commission",
+    "publisher": "CWGC",
+    "url": "https://www.cwgc.org",
+    "accessDate": "2024",
+    "description": "Records and information about Commonwealth casualties and cemeteries in Normandy."
+  },
+  {
+    "id": "beevor-dday",
+    "type": "book",
+    "title": "D-Day: The Battle for Normandy",
+    "author": "Antony Beevor",
+    "publisher": "Viking Press",
+    "year": "2009",
+    "description": "Acclaimed comprehensive history of the Normandy invasion and subsequent campaign, drawing on extensive archival research."
+  },
+  {
+    "id": "ambrose-dday",
+    "type": "book",
+    "title": "D-Day: June 6, 1944",
+    "author": "Stephen E. Ambrose",
+    "publisher": "Simon & Schuster",
+    "year": "1994",
+    "description": "Detailed account of the invasion focusing on the experiences of soldiers at all levels."
+  },
+  {
+    "id": "keegan-six-armies",
+    "type": "book",
+    "title": "Six Armies in Normandy",
+    "author": "John Keegan",
+    "publisher": "Viking Press",
+    "year": "1982",
+    "description": "Classic analysis of the Normandy campaign examining the experience of six different national forces."
+  },
+  {
+    "id": "hastings-overlord",
+    "type": "book",
+    "title": "Overlord: D-Day and the Battle for Normandy",
+    "author": "Max Hastings",
+    "publisher": "Simon & Schuster",
+    "year": "1984",
+    "description": "Comprehensive military history of the Normandy campaign with analysis of Allied and German operations."
+  },
+  {
+    "id": "ryan-longest-day",
+    "type": "book",
+    "title": "The Longest Day",
+    "author": "Cornelius Ryan",
+    "publisher": "Simon & Schuster",
+    "year": "1959",
+    "description": "Landmark narrative history of D-Day based on interviews with over 1,000 participants from all sides."
+  },
+  {
+    "id": "dday-overlord",
+    "type": "website",
+    "title": "D-Day Overlord",
+    "publisher": "D-Day Overlord",
+    "url": "https://www.dday-overlord.com",
+    "accessDate": "2024",
+    "description": "Comprehensive online resource dedicated to the history of D-Day and the Battle of Normandy."
+  },
+  {
+    "id": "army-cmh",
+    "type": "archive",
+    "title": "U.S. Army Center of Military History - Normandy",
+    "publisher": "U.S. Army",
+    "url": "https://history.army.mil/brochures/normandy/nor-pam.htm",
+    "accessDate": "2024",
+    "description": "Official U.S. Army historical publications on the Normandy Campaign."
+  },
+  {
+    "id": "bbc-history",
+    "type": "website",
+    "title": "BBC History - World War Two",
+    "publisher": "BBC",
+    "url": "https://www.bbc.co.uk/history/worldwars/wwtwo",
+    "accessDate": "2024",
+    "description": "Educational content and documentaries about World War II from the BBC."
+  },
+  {
+    "id": "eisenhower-library",
+    "type": "archive",
+    "title": "Dwight D. Eisenhower Presidential Library",
+    "publisher": "National Archives",
+    "url": "https://www.eisenhowerlibrary.gov",
+    "accessDate": "2024",
+    "description": "Primary source documents from Eisenhower's papers related to SHAEF and D-Day planning."
+  },
+  {
+    "id": "pegasus-bridge",
+    "type": "museum",
+    "title": "Pegasus Bridge Memorial Museum",
+    "publisher": "Pegasus Memorial",
+    "url": "https://www.memorial-pegasus.com",
+    "accessDate": "2024",
+    "description": "Museum dedicated to the British airborne operations on D-Day, located at the original Pegasus Bridge."
+  },
+  {
+    "id": "utah-beach-museum",
+    "type": "museum",
+    "title": "Utah Beach D-Day Museum",
+    "publisher": "Musée du Débarquement Utah Beach",
+    "url": "https://www.utah-beach.com",
+    "accessDate": "2024",
+    "description": "Museum on Utah Beach chronicling the American landings and liberation of the Cotentin Peninsula."
+  },
+  {
+    "id": "juno-beach-centre",
+    "type": "museum",
+    "title": "Juno Beach Centre",
+    "publisher": "Juno Beach Centre Association",
+    "url": "https://www.junobeach.org",
+    "accessDate": "2024",
+    "description": "Canadian museum on Juno Beach dedicated to Canada's role in WWII and D-Day."
+  },
+  {
+    "id": "portsmouth-dday",
+    "type": "museum",
+    "title": "The D-Day Story Portsmouth",
+    "publisher": "Portsmouth City Council",
+    "url": "https://theddaystory.com",
+    "accessDate": "2024",
+    "description": "Museum in Portsmouth, UK, telling the story of D-Day from embarkation to the Battle of Normandy."
+  },
+  {
+    "id": "resistance-museum",
+    "type": "museum",
+    "title": "Musée de la Résistance et de la Déportation",
+    "publisher": "Various French Museums",
+    "description": "Network of French museums documenting the Resistance movement and civilian experience during occupation."
+  },
+  {
+    "id": "wikimedia-commons",
+    "type": "archive",
+    "title": "Wikimedia Commons - D-Day Collection",
+    "publisher": "Wikimedia Foundation",
+    "url": "https://commons.wikimedia.org/wiki/Category:Normandy_landings",
+    "accessDate": "2024",
+    "description": "Public domain photographs and documents related to the Normandy landings."
+  },
+  {
+    "id": "loc-dday",
+    "type": "archive",
+    "title": "Library of Congress - D-Day Collection",
+    "publisher": "Library of Congress",
+    "url": "https://www.loc.gov/collections/",
+    "accessDate": "2024",
+    "description": "Photographs, maps, and documents from the Library of Congress collections."
+  }
+]

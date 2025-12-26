@@ -1,0 +1,295 @@
+[
+  {
+    "id": "m4-sherman",
+    "name": "M4 Sherman Tank",
+    "type": "tank",
+    "nation": "allied",
+    "country": "United States",
+    "description": "The M4 Sherman was the primary battle tank used by the United States and other Western Allies during World War II. While it was outgunned by heavier German tanks, its reliability, ease of production, and sheer numbers made it instrumental in the Allied victory.",
+    "specifications": {
+      "weight": "30.3 tons",
+      "crew": "5",
+      "mainArmament": "75mm M3 L/40 gun (or 76mm M1)",
+      "armor": "12.7-76mm",
+      "speed": "30 mph (48 km/h)",
+      "range": "120 miles (193 km)"
+    },
+    "dDayRole": "Shermans were deployed on all five beaches, with many equipped with DD (Duplex Drive) flotation devices allowing them to swim ashore. At Omaha Beach, most DD tanks sank in rough seas, contributing to the high casualties.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/M4-Sherman_tank-European_theatre.jpg/1280px-M4-Sherman_tank-European_theatre.jpg",
+    "imageCredit": "U.S. Army, Public domain, via Wikimedia Commons"
+  },
+  {
+    "id": "sherman-firefly",
+    "name": "Sherman Firefly",
+    "type": "tank",
+    "nation": "allied",
+    "country": "United Kingdom",
+    "description": "The Sherman Firefly was a British variant of the M4 Sherman fitted with the powerful 17-pounder anti-tank gun. It was the only Allied tank capable of reliably penetrating the armor of German Panther and Tiger tanks at normal combat ranges.",
+    "specifications": {
+      "weight": "35.3 tons",
+      "crew": "4",
+      "mainArmament": "QF 17-pounder (76.2mm)",
+      "armor": "12.7-76mm",
+      "speed": "25 mph (40 km/h)",
+      "range": "120 miles (193 km)"
+    },
+    "dDayRole": "Fireflies were distributed among British and Canadian tank units, typically one per troop of four tanks. They were priority targets for German gunners due to their tank-killing capability.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/ShermanFirefly.jpg/1280px-ShermanFirefly.jpg",
+    "imageCredit": "Hohum, Public domain, via Wikimedia Commons"
+  },
+  {
+    "id": "panzer-iv",
+    "name": "Panzer IV",
+    "type": "tank",
+    "nation": "axis",
+    "country": "Germany",
+    "description": "The Panzer IV was the most widely produced German tank of World War II. It served as the backbone of German armored forces throughout the war and was continuously upgraded with better guns and armor.",
+    "specifications": {
+      "weight": "25 tons",
+      "crew": "5",
+      "mainArmament": "7.5cm KwK 40 L/48",
+      "armor": "10-80mm",
+      "speed": "26 mph (42 km/h)",
+      "range": "130 miles (210 km)"
+    },
+    "dDayRole": "The 21st Panzer Division, equipped with Panzer IVs, was the only armored unit to counterattack on D-Day. They advanced toward Sword Beach but were stopped by Allied air power and anti-tank guns.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Bundesarchiv_Bild_101I-748-0089-35%2C_Russland%2C_Kolonne_mit_Panzer_IV.jpg/1280px-Bundesarchiv_Bild_101I-748-0089-35%2C_Russland%2C_Kolonne_mit_Panzer_IV.jpg",
+    "imageCredit": "Bundesarchiv, Bild 101I-748-0089-35 / Seibold / CC-BY-SA 3.0"
+  },
+  {
+    "id": "panther",
+    "name": "Panther Tank (Panzer V)",
+    "type": "tank",
+    "nation": "axis",
+    "country": "Germany",
+    "description": "The Panther was Germany's response to the Soviet T-34. With its sloped armor, powerful 75mm gun, and excellent optics, it is often considered one of the best tanks of World War II, though plagued by mechanical issues.",
+    "specifications": {
+      "weight": "44.8 tons",
+      "crew": "5",
+      "mainArmament": "7.5cm KwK 42 L/70",
+      "armor": "15-120mm",
+      "speed": "29 mph (46 km/h)",
+      "range": "155 miles (250 km)"
+    },
+    "dDayRole": "Panthers arrived in Normandy after D-Day as reinforcements. Their superior firepower and armor made them formidable opponents in the bocage fighting, where their long gun barrel sometimes became a hindrance in close terrain.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Panther_Ausf._G_1_Bovington.jpg/1280px-Panther_Ausf._G_1_Bovington.jpg",
+    "imageCredit": "Simon Q from United Kingdom, CC BY 2.0, via Wikimedia Commons"
+  },
+  {
+    "id": "tiger-i",
+    "name": "Tiger I Tank",
+    "type": "tank",
+    "nation": "axis",
+    "country": "Germany",
+    "description": "The Tiger I was one of the most feared tanks of World War II. Its 88mm gun could destroy any Allied tank at ranges over a mile, and its thick armor made it nearly impervious to most Allied anti-tank weapons.",
+    "specifications": {
+      "weight": "57 tons",
+      "crew": "5",
+      "mainArmament": "8.8cm KwK 36 L/56",
+      "armor": "25-120mm",
+      "speed": "23 mph (38 km/h)",
+      "range": "68 miles (110 km)"
+    },
+    "dDayRole": "Tiger tanks were deployed in heavy tank battalions. Michael Wittmann's famous action at Villers-Bocage on June 13, 1944, where his Tiger destroyed numerous British vehicles, demonstrated their devastating capability.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Bundesarchiv_Bild_101I-299-1804-07%2C_Michael_Wittmann%2C_vor_Panzer_VI_%28Tiger_I%29.jpg/1280px-Bundesarchiv_Bild_101I-299-1804-07%2C_Michael_Wittmann%2C_vor_Panzer_VI_%28Tiger_I%29.jpg",
+    "imageCredit": "Bundesarchiv, Bild 101I-299-1804-07 / CC-BY-SA 3.0"
+  },
+  {
+    "id": "lcvp-higgins",
+    "name": "LCVP Higgins Boat",
+    "type": "vehicle",
+    "nation": "allied",
+    "country": "United States",
+    "description": "The Landing Craft, Vehicle, Personnel (LCVP), commonly known as the Higgins boat, was the primary landing craft used to transport troops from ships to the invasion beaches. Eisenhower called Andrew Higgins 'the man who won the war for us.'",
+    "specifications": {
+      "length": "36 ft 3 in (11.05 m)",
+      "beam": "10 ft 10 in (3.30 m)",
+      "capacity": "36 troops or 8,100 lb cargo",
+      "speed": "9 knots (17 km/h)",
+      "crew": "4"
+    },
+    "dDayRole": "Thousands of Higgins boats delivered the first waves of assault troops to all five beaches. Their shallow draft allowed them to approach close to shore, and the front ramp allowed rapid disembarkation under fire.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/LCVP_Landing_Craft.jpg/1280px-LCVP_Landing_Craft.jpg",
+    "imageCredit": "U.S. Navy, Public domain, via Wikimedia Commons"
+  },
+  {
+    "id": "c47-skytrain",
+    "name": "C-47 Skytrain (Dakota)",
+    "type": "aircraft",
+    "nation": "allied",
+    "country": "United States",
+    "description": "The C-47 Skytrain was the military version of the Douglas DC-3. It was the primary transport aircraft for Allied airborne operations, carrying paratroopers and towing gliders. Eisenhower called it one of the four weapons that won the war.",
+    "specifications": {
+      "length": "63 ft 9 in (19.43 m)",
+      "wingspan": "95 ft 6 in (29.11 m)",
+      "capacity": "28 paratroopers or 6,000 lb cargo",
+      "speed": "224 mph (360 km/h)",
+      "range": "1,600 miles (2,575 km)"
+    },
+    "dDayRole": "Over 800 C-47s dropped American paratroopers of the 82nd and 101st Airborne Divisions into Normandy in the early hours of June 6. Many aircraft faced heavy anti-aircraft fire, causing scattered drops.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Douglas_C-47A_Skytrain_%22Drag_%27Em_Oot%22_at_Duxford.jpg/1280px-Douglas_C-47A_Skytrain_%22Drag_%27Em_Oot%22_at_Duxford.jpg",
+    "imageCredit": "Kogo, GFDL, via Wikimedia Commons"
+  },
+  {
+    "id": "horsa-glider",
+    "name": "Airspeed Horsa Glider",
+    "type": "aircraft",
+    "nation": "allied",
+    "country": "United Kingdom",
+    "description": "The Horsa was a British troop-carrying glider used for airborne assaults. Made mostly of wood, it could carry 25 troops or a jeep and anti-tank gun. It played a crucial role in the capture of Pegasus Bridge.",
+    "specifications": {
+      "length": "67 ft (20.42 m)",
+      "wingspan": "88 ft (26.82 m)",
+      "capacity": "25-30 troops or 7,000 lb",
+      "towSpeed": "150 mph (241 km/h)",
+      "landingSpeed": "100 mph (161 km/h)"
+    },
+    "dDayRole": "Major John Howard's glider force used Horsas to land within 50 yards of Pegasus Bridge, capturing it intact in a textbook coup de main operation that secured the eastern flank of the invasion.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Horsa_glider.jpg/1280px-Horsa_glider.jpg",
+    "imageCredit": "Royal Air Force official photographer, Public domain, via Wikimedia Commons"
+  },
+  {
+    "id": "m1-garand",
+    "name": "M1 Garand Rifle",
+    "type": "weapon",
+    "nation": "allied",
+    "country": "United States",
+    "description": "The M1 Garand was the standard U.S. service rifle during World War II. It was the first semi-automatic rifle to be adopted as a standard infantry weapon. General Patton called it 'the greatest battle implement ever devised.'",
+    "specifications": {
+      "caliber": ".30-06 Springfield",
+      "capacity": "8-round en bloc clip",
+      "weight": "9.5 lb (4.31 kg)",
+      "length": "43.5 in (1,103 mm)",
+      "effectiveRange": "500 yards (457 m)"
+    },
+    "dDayRole": "The M1 Garand's semi-automatic action gave American infantry a significant firepower advantage over German troops armed with bolt-action Kar98k rifles, particularly important in the intense beach fighting.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/M1_Garand_rifle_-_USA_-_30-06_-_Arm%C3%A9museum.jpg/1280px-M1_Garand_rifle_-_USA_-_30-06_-_Arm%C3%A9museum.jpg",
+    "imageCredit": "Armémuseum (The Swedish Army Museum), CC BY-SA 4.0, via Wikimedia Commons"
+  },
+  {
+    "id": "kar98k",
+    "name": "Karabiner 98k",
+    "type": "weapon",
+    "nation": "axis",
+    "country": "Germany",
+    "description": "The Kar98k was the standard German infantry rifle of World War II. A bolt-action design based on the Mauser action, it was accurate and reliable but slower to fire than the American M1 Garand.",
+    "specifications": {
+      "caliber": "7.92x57mm Mauser",
+      "capacity": "5-round internal magazine",
+      "weight": "8.2 lb (3.7 kg)",
+      "length": "43.7 in (1,110 mm)",
+      "effectiveRange": "550 yards (500 m)"
+    },
+    "dDayRole": "German defenders on the beaches and in the fortifications were primarily armed with Kar98k rifles. Despite its slower rate of fire, the rifle's accuracy made German defenders deadly, especially from prepared positions.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Karabiner_98k.jpg/1280px-Karabiner_98k.jpg",
+    "imageCredit": "Armémuseum, CC BY-SA 4.0, via Wikimedia Commons"
+  },
+  {
+    "id": "mg42",
+    "name": "MG 42 Machine Gun",
+    "type": "weapon",
+    "nation": "axis",
+    "country": "Germany",
+    "description": "The MG 42 was one of the most effective machine guns of World War II. Its extremely high rate of fire (1,200 rounds/minute) earned it nicknames like 'Hitler's Buzzsaw' from Allied troops who faced its devastating fire.",
+    "specifications": {
+      "caliber": "7.92x57mm Mauser",
+      "rateOfFire": "1,200 rounds/min",
+      "weight": "25.5 lb (11.57 kg)",
+      "length": "48.2 in (1,220 mm)",
+      "effectiveRange": "1,200 yards (1,097 m)"
+    },
+    "dDayRole": "MG 42s in the beach fortifications caused devastating casualties among Allied troops. At Omaha Beach, well-positioned MG 42s in bunkers created kill zones that pinned down American soldiers for hours.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/MG42_Sideview.jpg/1280px-MG42_Sideview.jpg",
+    "imageCredit": "Armémuseum, CC BY-SA 4.0, via Wikimedia Commons"
+  },
+  {
+    "id": "thompson-smg",
+    "name": "Thompson Submachine Gun",
+    "type": "weapon",
+    "nation": "allied",
+    "country": "United States",
+    "description": "The Thompson submachine gun, nicknamed the 'Tommy Gun,' was favored by officers, NCOs, and paratroopers for its reliable firepower in close combat. Its .45 caliber rounds provided excellent stopping power.",
+    "specifications": {
+      "caliber": ".45 ACP",
+      "rateOfFire": "600-700 rounds/min",
+      "weight": "10.8 lb (4.9 kg)",
+      "length": "33.5 in (851 mm)",
+      "effectiveRange": "164 yards (150 m)"
+    },
+    "dDayRole": "Paratroopers and assault troops valued the Thompson for close-quarters fighting in the Norman hedgerows. Its compact size and automatic fire made it ideal for the confused night fighting after the airborne drop.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Thompson_M1A1.jpg/1280px-Thompson_M1A1.jpg",
+    "imageCredit": "Autodesz, CC BY-SA 3.0, via Wikimedia Commons"
+  },
+  {
+    "id": "stg44",
+    "name": "Sturmgewehr 44 (StG 44)",
+    "type": "weapon",
+    "nation": "axis",
+    "country": "Germany",
+    "description": "The StG 44 was the world's first true assault rifle, combining the automatic fire of a submachine gun with the range of a rifle. Though revolutionary, it arrived too late and in too few numbers to change the war's outcome.",
+    "specifications": {
+      "caliber": "7.92x33mm Kurz",
+      "rateOfFire": "500-600 rounds/min",
+      "weight": "11.5 lb (5.22 kg)",
+      "length": "37 in (940 mm)",
+      "effectiveRange": "330 yards (300 m)"
+    },
+    "dDayRole": "Limited numbers of StG 44s were present in Normandy with elite units. The weapon's revolutionary design influenced post-war assault rifle development, including the AK-47 and M16.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/MP_43_%28Sturmgewehr_44_-_StG_44%29.jpg/1280px-MP_43_%28Sturmgewehr_44_-_StG_44%29.jpg",
+    "imageCredit": "Bundesarchiv, B 145 Bild-F027553-0009 / Wienke / CC-BY-SA 3.0"
+  },
+  {
+    "id": "panzerschreck",
+    "name": "Panzerschreck",
+    "type": "weapon",
+    "nation": "axis",
+    "country": "Germany",
+    "description": "The Panzerschreck ('Tank Terror') was an 88mm portable anti-tank rocket launcher, essentially an enlarged version of the American bazooka. It was highly effective against Allied armor and a significant threat in the Norman bocage.",
+    "specifications": {
+      "caliber": "88mm rocket",
+      "weight": "24.2 lb (11 kg)",
+      "length": "65 in (1,640 mm)",
+      "effectiveRange": "164 yards (150 m)",
+      "penetration": "200mm armor"
+    },
+    "dDayRole": "German anti-tank teams armed with Panzerschrecks ambushed Allied armor in the dense hedgerow country. The weapon's ability to penetrate Sherman armor from all angles made every hedgerow a potential death trap.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Rpzb43.jpg/1280px-Rpzb43.jpg",
+    "imageCredit": "Museum of Coastal Defence, Public domain, via Wikimedia Commons"
+  },
+  {
+    "id": "bazooka",
+    "name": "M1 Bazooka",
+    "type": "weapon",
+    "nation": "allied",
+    "country": "United States",
+    "description": "The M1 Bazooka was America's first portable rocket-propelled anti-tank weapon. While less powerful than the German Panzerschreck, it gave infantry a means to engage enemy armor and fortifications.",
+    "specifications": {
+      "caliber": "2.36 in (60mm) rocket",
+      "weight": "13 lb (5.9 kg)",
+      "length": "54 in (1,370 mm)",
+      "effectiveRange": "150 yards (140 m)",
+      "penetration": "76mm armor"
+    },
+    "dDayRole": "Bazookas were used to knock out German bunkers and machine gun nests on the beaches. While insufficient against heavier German tanks, they proved valuable against lighter vehicles and fortifications.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Bazooka_M1.jpg/1280px-Bazooka_M1.jpg",
+    "imageCredit": "Curiosandrelics, CC BY-SA 4.0, via Wikimedia Commons"
+  },
+  {
+    "id": "88mm-flak",
+    "name": "88mm Flak Gun",
+    "type": "artillery",
+    "nation": "axis",
+    "country": "Germany",
+    "description": "The 88mm Flak (Flugabwehrkanone) was Germany's most famous and versatile artillery piece. Originally designed for anti-aircraft use, it proved devastatingly effective as an anti-tank gun and was feared by Allied tank crews.",
+    "specifications": {
+      "caliber": "88mm",
+      "weight": "7,407 lb (3,360 kg)",
+      "length": "226 in (5,791 mm) barrel",
+      "effectiveRange": "9 miles (14.8 km) AA, 2 miles (3.2 km) AT",
+      "rateOfFire": "15-20 rounds/min"
+    },
+    "dDayRole": "88mm guns in coastal positions and inland could engage Allied landing craft, tanks, and aircraft. Their high velocity and accuracy made them particularly deadly against Sherman tanks.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/88_mm_Flak_36.jpg/1280px-88_mm_Flak_36.jpg",
+    "imageCredit": "Hihiman, CC BY-SA 3.0, via Wikimedia Commons"
+  }
+]
