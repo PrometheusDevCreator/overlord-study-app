@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { historicalMaps } from '@/lib/content-loader';
 import ImageWithFallback from '@/components/ImageWithFallback';
+import SchematicDDayMap from '@/components/SchematicDDayMap';
 
 interface MapLocation {
   id: string;
@@ -51,100 +52,105 @@ const locations: MapLocation[] = [
   },
 ];
 
-// Timeline phases for animated map
+// Timeline phases for animated map - coordinates aligned to schematic Normandy coast
+// The map shows: English Channel at top, Normandy coast in middle, inland France at bottom
+// X-axis: West (Utah) at ~10% to East (Sword/Caen) at ~90%
+// Y-axis: Channel (ships) at ~15%, beaches at ~45%, inland at ~70-85%
 const timelinePhases = [
   {
     id: 'phase-0',
     time: '00:00 - 00:30',
     title: 'Pathfinders Drop',
-    description: 'Elite pathfinder teams mark drop zones with lights and radar beacons',
+    description: 'Elite pathfinder teams mark drop zones with lights and radar beacons. First Allied soldiers land in France.',
     alliedPositions: [
-      { name: '82nd Pathfinders', x: 20, y: 30 },
-      { name: '101st Pathfinders', x: 25, y: 35 },
-      { name: '6th Airborne Pathfinders', x: 80, y: 30 },
+      { name: '101st Pathfinders', x: 18, y: 58, type: 'airborne' },
+      { name: '82nd Pathfinders', x: 12, y: 62, type: 'airborne' },
+      { name: '6th Airborne Pathfinders', x: 88, y: 55, type: 'airborne' },
     ],
     germanPositions: [
-      { name: '91st Division', x: 22, y: 45 },
-      { name: '716th Division', x: 60, y: 50 },
-      { name: '21st Panzer', x: 75, y: 55 },
+      { name: '91st Division', x: 15, y: 72 },
+      { name: '716th Division', x: 55, y: 65 },
+      { name: '21st Panzer', x: 82, y: 70 },
     ],
   },
   {
     id: 'phase-1',
     time: '00:30 - 03:00',
     title: 'Airborne Assault',
-    description: 'Paratroopers of 82nd, 101st, and 6th Airborne divisions drop behind enemy lines',
+    description: 'Over 23,000 paratroopers of 82nd, 101st, and 6th Airborne divisions drop behind enemy lines to secure key objectives.',
     alliedPositions: [
-      { name: '82nd Airborne', x: 18, y: 35 },
-      { name: '101st Airborne', x: 22, y: 40 },
-      { name: '6th Airborne', x: 82, y: 32 },
-      { name: 'Pegasus Bridge', x: 78, y: 28 },
+      { name: '82nd Airborne', x: 10, y: 60, type: 'airborne' },
+      { name: '101st Airborne', x: 18, y: 58, type: 'airborne' },
+      { name: '6th Airborne', x: 88, y: 55, type: 'airborne' },
+      { name: 'Pegasus Bridge', x: 85, y: 52, type: 'objective' },
     ],
     germanPositions: [
-      { name: '91st Division', x: 22, y: 45 },
-      { name: '716th Division', x: 60, y: 50 },
-      { name: '21st Panzer', x: 75, y: 55 },
-      { name: '352nd Division', x: 40, y: 55 },
+      { name: '91st Division', x: 15, y: 72 },
+      { name: '352nd Division', x: 38, y: 68 },
+      { name: '716th Division', x: 55, y: 65 },
+      { name: '21st Panzer', x: 82, y: 70 },
     ],
   },
   {
     id: 'phase-2',
     time: '05:50 - 06:30',
     title: 'Naval Bombardment & H-Hour',
-    description: 'Allied warships bombard coastal defenses. First waves hit Utah and Omaha beaches.',
+    description: 'Over 5,000 Allied ships bombard coastal defenses. First waves land on Utah and Omaha beaches at 06:30.',
     alliedPositions: [
-      { name: 'Utah Beach', x: 15, y: 60 },
-      { name: 'Omaha Beach', x: 35, y: 62 },
-      { name: '82nd Airborne', x: 18, y: 38 },
-      { name: '101st Airborne', x: 22, y: 42 },
-      { name: '6th Airborne', x: 82, y: 35 },
+      { name: 'Naval Fleet', x: 50, y: 18, type: 'naval' },
+      { name: 'Utah Landing', x: 15, y: 45, type: 'beach' },
+      { name: 'Omaha Landing', x: 35, y: 47, type: 'beach' },
+      { name: '82nd Airborne', x: 10, y: 60, type: 'airborne' },
+      { name: '101st Airborne', x: 18, y: 58, type: 'airborne' },
+      { name: '6th Airborne', x: 88, y: 55, type: 'airborne' },
     ],
     germanPositions: [
       { name: '709th Division', x: 12, y: 55 },
-      { name: '352nd Division', x: 38, y: 55 },
-      { name: '716th Division', x: 60, y: 50 },
-      { name: '21st Panzer', x: 75, y: 55 },
+      { name: '352nd Division', x: 38, y: 58 },
+      { name: '716th Division', x: 55, y: 60 },
+      { name: '21st Panzer', x: 82, y: 70 },
     ],
   },
   {
     id: 'phase-3',
     time: '07:25 - 09:00',
     title: 'British & Canadian Landings',
-    description: 'Gold, Juno, and Sword beaches assaulted. Fighting intensifies at Omaha.',
+    description: 'Gold, Juno, and Sword beaches assaulted. Fierce fighting continues at Omaha where casualties are highest.',
     alliedPositions: [
-      { name: 'Utah Beach', x: 15, y: 55 },
-      { name: 'Omaha Beach', x: 35, y: 60 },
-      { name: 'Gold Beach', x: 52, y: 62 },
-      { name: 'Juno Beach', x: 62, y: 62 },
-      { name: 'Sword Beach', x: 75, y: 62 },
-      { name: '6th Airborne', x: 82, y: 40 },
+      { name: 'Utah', x: 15, y: 48, type: 'beach' },
+      { name: 'Omaha', x: 35, y: 50, type: 'beach' },
+      { name: 'Gold', x: 52, y: 48, type: 'beach' },
+      { name: 'Juno', x: 65, y: 47, type: 'beach' },
+      { name: 'Sword', x: 78, y: 46, type: 'beach' },
+      { name: '6th Airborne', x: 88, y: 52, type: 'airborne' },
     ],
     germanPositions: [
-      { name: '709th Division', x: 12, y: 50 },
-      { name: '352nd Division', x: 38, y: 52 },
-      { name: '716th Division', x: 58, y: 48 },
-      { name: '21st Panzer', x: 72, y: 50 },
+      { name: '709th Div', x: 12, y: 58 },
+      { name: '352nd Div', x: 38, y: 60 },
+      { name: '716th Div', x: 55, y: 58 },
+      { name: '21st Panzer', x: 80, y: 65 },
     ],
   },
   {
     id: 'phase-4',
     time: '13:00 - 21:00',
     title: 'Beachheads Secured',
-    description: 'Omaha finally secured. German counterattack by 21st Panzer stopped. Beachheads established.',
+    description: 'Omaha finally secured after heavy losses. 21st Panzer counterattack stopped near Sword Beach. 156,000 troops ashore.',
     alliedPositions: [
-      { name: 'Utah Beachhead', x: 15, y: 48 },
-      { name: 'Omaha Beachhead', x: 35, y: 52 },
-      { name: 'Gold Beachhead', x: 52, y: 55 },
-      { name: 'Juno Beachhead', x: 62, y: 55 },
-      { name: 'Sword Beachhead', x: 75, y: 55 },
-      { name: 'Airborne Zone', x: 20, y: 38 },
-      { name: '6th Airborne Zone', x: 82, y: 42 },
+      { name: 'Utah Beachhead', x: 15, y: 55, type: 'beachhead' },
+      { name: 'Omaha Beachhead', x: 35, y: 58, type: 'beachhead' },
+      { name: 'Gold Beachhead', x: 52, y: 56, type: 'beachhead' },
+      { name: 'Juno Beachhead', x: 65, y: 55, type: 'beachhead' },
+      { name: 'Sword Beachhead', x: 78, y: 54, type: 'beachhead' },
+      { name: '82nd Zone', x: 10, y: 62, type: 'airborne' },
+      { name: '101st Zone', x: 18, y: 60, type: 'airborne' },
+      { name: '6th Abn Zone', x: 88, y: 55, type: 'airborne' },
     ],
     germanPositions: [
-      { name: '709th (retreating)', x: 10, y: 42 },
-      { name: '352nd (weakened)', x: 42, y: 45 },
-      { name: '716th (scattered)', x: 58, y: 42 },
-      { name: '21st Panzer (halted)', x: 70, y: 45 },
+      { name: '709th (retreating)', x: 10, y: 72 },
+      { name: '352nd (weakened)', x: 35, y: 70 },
+      { name: '716th (scattered)', x: 55, y: 68 },
+      { name: '21st Pz (halted)', x: 78, y: 62 },
     ],
   },
 ];
@@ -266,28 +272,58 @@ export default function MapsPage() {
 
               {/* Animated Map Display */}
               <div className="relative aspect-[16/9] bg-[var(--background-secondary)] rounded-lg overflow-hidden mb-4">
-                {/* Background map image */}
-                <img
-                  src="/images/maps/invasion-overview.jpg"
-                  alt="Normandy Map"
-                  className="absolute inset-0 w-full h-full object-cover opacity-60"
-                />
+                {/* Schematic SVG map background */}
+                <SchematicDDayMap className="absolute inset-0 w-full h-full" />
 
                 {/* Overlay with positions */}
                 <div className="absolute inset-0">
-                  {/* Allied positions */}
-                  {showAllied && timelinePhases[currentPhase].alliedPositions.map((pos, idx) => (
-                    <div
-                      key={`allied-${idx}`}
-                      className="absolute transform -translate-x-1/2 -translate-y-1/2 transition-all duration-1000"
-                      style={{ left: `${pos.x}%`, top: `${pos.y}%` }}
-                    >
-                      <div className="w-4 h-4 bg-blue-500 rounded-full animate-pulse shadow-lg shadow-blue-500/50"></div>
-                      <span className="absolute left-5 top-0 text-xs bg-blue-900/80 text-white px-2 py-0.5 rounded whitespace-nowrap">
-                        {pos.name}
-                      </span>
-                    </div>
-                  ))}
+                  {/* Allied positions with type-based styling */}
+                  {showAllied && timelinePhases[currentPhase].alliedPositions.map((pos, idx) => {
+                    const getMarkerStyle = (type: string) => {
+                      switch (type) {
+                        case 'airborne':
+                          return 'w-5 h-5 bg-purple-500 rounded-full animate-pulse shadow-lg shadow-purple-500/50';
+                        case 'beach':
+                          return 'w-4 h-4 bg-blue-400 rounded-sm animate-pulse shadow-lg shadow-blue-400/50';
+                        case 'naval':
+                          return 'w-6 h-3 bg-blue-600 rounded-sm shadow-lg shadow-blue-600/50';
+                        case 'objective':
+                          return 'w-4 h-4 bg-yellow-400 rotate-45 shadow-lg shadow-yellow-400/50';
+                        case 'beachhead':
+                          return 'w-5 h-5 bg-green-500 rounded-full shadow-lg shadow-green-500/50';
+                        default:
+                          return 'w-4 h-4 bg-blue-500 rounded-full animate-pulse shadow-lg shadow-blue-500/50';
+                      }
+                    };
+                    const getLabelStyle = (type: string) => {
+                      switch (type) {
+                        case 'airborne':
+                          return 'bg-purple-900/90';
+                        case 'beach':
+                          return 'bg-blue-800/90';
+                        case 'naval':
+                          return 'bg-blue-900/90';
+                        case 'objective':
+                          return 'bg-yellow-900/90';
+                        case 'beachhead':
+                          return 'bg-green-900/90';
+                        default:
+                          return 'bg-blue-900/90';
+                      }
+                    };
+                    return (
+                      <div
+                        key={`allied-${idx}`}
+                        className="absolute transform -translate-x-1/2 -translate-y-1/2 transition-all duration-1000"
+                        style={{ left: `${pos.x}%`, top: `${pos.y}%` }}
+                      >
+                        <div className={getMarkerStyle(pos.type)}></div>
+                        <span className={`absolute left-6 top-0 text-xs ${getLabelStyle(pos.type)} text-white px-2 py-0.5 rounded whitespace-nowrap font-medium`}>
+                          {pos.name}
+                        </span>
+                      </div>
+                    );
+                  })}
 
                   {/* German positions */}
                   {showGerman && timelinePhases[currentPhase].germanPositions.map((pos, idx) => (
@@ -296,30 +332,21 @@ export default function MapsPage() {
                       className="absolute transform -translate-x-1/2 -translate-y-1/2 transition-all duration-1000"
                       style={{ left: `${pos.x}%`, top: `${pos.y}%` }}
                     >
-                      <div className="w-4 h-4 bg-gray-500 rounded-full shadow-lg shadow-gray-500/50"></div>
-                      <span className="absolute left-5 top-0 text-xs bg-gray-900/80 text-white px-2 py-0.5 rounded whitespace-nowrap">
+                      <div className="w-4 h-4 bg-gray-600 border-2 border-gray-400 rounded-sm shadow-lg shadow-gray-600/50"></div>
+                      <span className="absolute left-6 top-0 text-xs bg-gray-800/90 text-gray-200 px-2 py-0.5 rounded whitespace-nowrap font-medium">
                         {pos.name}
                       </span>
                     </div>
                   ))}
-
-                  {/* Beach labels */}
-                  <div className="absolute bottom-4 left-4 right-4 flex justify-between text-xs font-bold">
-                    <span className="bg-yellow-600/80 px-2 py-1 rounded">UTAH</span>
-                    <span className="bg-yellow-600/80 px-2 py-1 rounded">OMAHA</span>
-                    <span className="bg-yellow-600/80 px-2 py-1 rounded">GOLD</span>
-                    <span className="bg-yellow-600/80 px-2 py-1 rounded">JUNO</span>
-                    <span className="bg-yellow-600/80 px-2 py-1 rounded">SWORD</span>
-                  </div>
                 </div>
 
                 {/* Current phase info overlay */}
-                <div className="absolute top-4 left-4 bg-black/70 p-4 rounded-lg max-w-xs">
+                <div className="absolute top-4 left-4 bg-black/80 p-4 rounded-lg max-w-sm border border-white/10">
                   <div className="text-[var(--accent-gold)] font-mono text-sm mb-1">
                     {timelinePhases[currentPhase].time}
                   </div>
                   <h3 className="font-bold text-white mb-1">{timelinePhases[currentPhase].title}</h3>
-                  <p className="text-xs text-gray-300">{timelinePhases[currentPhase].description}</p>
+                  <p className="text-xs text-gray-300 leading-relaxed">{timelinePhases[currentPhase].description}</p>
                 </div>
               </div>
 
@@ -361,23 +388,31 @@ export default function MapsPage() {
 
             {/* Legend */}
             <div className="card p-4">
-              <h3 className="font-bold mb-3">Understanding the Map</h3>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+              <h3 className="font-bold mb-3">Map Legend</h3>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 text-sm">
                 <div className="flex items-center gap-2">
-                  <span className="w-4 h-4 rounded-full bg-blue-500"></span>
-                  <span>Allied Forces</span>
+                  <span className="w-5 h-5 rounded-full bg-purple-500"></span>
+                  <span>Airborne</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <span className="w-4 h-4 rounded-full bg-gray-500"></span>
+                  <span className="w-4 h-4 rounded-sm bg-blue-400"></span>
+                  <span>Beach Landing</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="w-6 h-3 rounded-sm bg-blue-600"></span>
+                  <span>Naval Fleet</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="w-4 h-4 rotate-45 bg-yellow-400"></span>
+                  <span>Objective</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="w-5 h-5 rounded-full bg-green-500"></span>
+                  <span>Beachhead</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="w-4 h-4 rounded-sm bg-gray-600 border-2 border-gray-400"></span>
                   <span>German Forces</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <span className="w-4 h-4 rounded bg-yellow-600"></span>
-                  <span>Landing Beaches</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <span className="w-4 h-4 rounded bg-purple-500"></span>
-                  <span>Airborne Zones</span>
                 </div>
               </div>
             </div>
