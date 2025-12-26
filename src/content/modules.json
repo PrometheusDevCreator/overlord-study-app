@@ -46,18 +46,18 @@
     ],
     "videos": [
       {
-        "title": "Operation Fortitude - The Greatest Deception",
-        "channel": "World War Two",
-        "url": "https://www.youtube.com/watch?v=YwHYHhv3WJ8",
+        "title": "WW2's Greatest Deception: Operation Fortitude",
+        "channel": "WW2 on TV",
+        "url": "https://www.youtube.com/watch?v=_5GAbyXibqc",
         "relevance": "Detailed look at the deception operations that fooled Hitler",
-        "duration": "16:00"
+        "duration": "25:00"
       },
       {
-        "title": "Mulberry Harbors - Engineering D-Day",
-        "channel": "Mustard",
-        "url": "https://www.youtube.com/watch?v=mdJ91PIYp0I",
+        "title": "Mulberry Harbours | How Dieppe led to D-Day Success",
+        "channel": "Imperial War Museums",
+        "url": "https://www.youtube.com/watch?v=B7vYXqQC7ME",
         "relevance": "The incredible engineering feat of building portable harbors",
-        "duration": "10:00"
+        "duration": "9:00"
       }
     ],
     "quizQuestions": ["q1-1", "q1-2", "q1-3"],
@@ -136,18 +136,18 @@
     ],
     "videos": [
       {
-        "title": "D-Day - The Normandy Landings Animated",
-        "channel": "The Armchair Historian",
-        "url": "https://www.youtube.com/watch?v=bnZjXfQu-DQ",
-        "relevance": "Comprehensive animated overview of the beach landings",
-        "duration": "20:00"
+        "title": "D-Day: The Secret War | Extra History",
+        "channel": "Extra History",
+        "url": "https://www.youtube.com/watch?v=a3w9pmvpyDM",
+        "relevance": "Comprehensive animated overview of the Normandy invasion",
+        "duration": "11:00"
       },
       {
-        "title": "Omaha Beach - Hour by Hour",
-        "channel": "History Hit",
-        "url": "https://www.youtube.com/watch?v=GKjxK-eYtSM",
-        "relevance": "Minute by minute breakdown of the Omaha Beach assault",
-        "duration": "15:00"
+        "title": "The Floating Harbors of D-Day",
+        "channel": "Real Engineering",
+        "url": "https://www.youtube.com/watch?v=zpFLLGkNm7I",
+        "relevance": "Engineering behind the Mulberry harbors that supported the landings",
+        "duration": "24:00"
       }
     ],
     "quizQuestions": ["q2-1", "q2-2", "q2-3"],
@@ -213,18 +213,18 @@
     ],
     "videos": [
       {
-        "title": "D-Day Airborne Operations Animated",
-        "channel": "Military History Visualized",
-        "url": "https://www.youtube.com/watch?v=vlRWO5hXn1s",
-        "relevance": "Animated maps showing the airborne drops and scattered landings",
-        "duration": "18:00"
+        "title": "The Greatest Deception of WW2: Operation Fortitude",
+        "channel": "Dark Docs",
+        "url": "https://www.youtube.com/watch?v=ZRIEWXImo_c",
+        "relevance": "How Allied deception supported the airborne operations",
+        "duration": "13:00"
       },
       {
-        "title": "Pegasus Bridge - The First D-Day Victory",
-        "channel": "Mark Felton Productions",
-        "url": "https://www.youtube.com/watch?v=nMZL2dqZTzQ",
-        "relevance": "The story of Major John Howard's glider assault",
-        "duration": "12:00"
+        "title": "Deception at D-Day | Deceiving Hitler",
+        "channel": "Army University Press",
+        "url": "https://www.youtube.com/watch?v=R5beAU_FUOE",
+        "relevance": "Official documentary on the D-Day deception campaign",
+        "duration": "33:00"
       }
     ],
     "quizQuestions": ["q3-1", "q3-2"],
