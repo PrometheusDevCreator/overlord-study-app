@@ -165,22 +165,22 @@ export default function HomePage() {
           <h2 className="text-2xl font-bold mb-6 text-center">Study Tools</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <Link href="/timeline" className="card p-6 text-center group hover:border-[var(--accent-gold)]/50">
-              <div className="text-3xl mb-3">📅</div>
+              <div className="w-12 h-12 mx-auto mb-3 rounded-lg bg-[var(--accent-gold)]/10 flex items-center justify-center text-[var(--accent-gold)] font-bold text-lg">T</div>
               <h3 className="font-bold mb-1 group-hover:text-[var(--accent-gold)]">Timeline</h3>
               <p className="text-xs text-[var(--foreground-muted)]">40+ key events</p>
             </Link>
             <Link href="/maps" className="card p-6 text-center group hover:border-[var(--accent-gold)]/50">
-              <div className="text-3xl mb-3">🗺️</div>
+              <div className="w-12 h-12 mx-auto mb-3 rounded-lg bg-[var(--accent-gold)]/10 flex items-center justify-center text-[var(--accent-gold)] font-bold text-lg">M</div>
               <h3 className="font-bold mb-1 group-hover:text-[var(--accent-gold)]">Map Room</h3>
               <p className="text-xs text-[var(--foreground-muted)]">Interactive maps</p>
             </Link>
             <Link href="/flashcards" className="card p-6 text-center group hover:border-[var(--accent-gold)]/50">
-              <div className="text-3xl mb-3">🃏</div>
+              <div className="w-12 h-12 mx-auto mb-3 rounded-lg bg-[var(--accent-gold)]/10 flex items-center justify-center text-[var(--accent-gold)] font-bold text-lg">F</div>
               <h3 className="font-bold mb-1 group-hover:text-[var(--accent-gold)]">Flashcards</h3>
               <p className="text-xs text-[var(--foreground-muted)]">80+ cards</p>
             </Link>
             <Link href="/quizzes" className="card p-6 text-center group hover:border-[var(--accent-gold)]/50">
-              <div className="text-3xl mb-3">✍️</div>
+              <div className="w-12 h-12 mx-auto mb-3 rounded-lg bg-[var(--accent-gold)]/10 flex items-center justify-center text-[var(--accent-gold)] font-bold text-lg">Q</div>
               <h3 className="font-bold mb-1 group-hover:text-[var(--accent-gold)]">Quizzes</h3>
               <p className="text-xs text-[var(--foreground-muted)]">120+ questions</p>
             </Link>
@@ -193,7 +193,7 @@ export default function HomePage() {
         <div className="max-w-5xl mx-auto">
           <div className="card p-6 md:p-8 french-highlight">
             <div className="flex items-start gap-4">
-              <span className="text-4xl">🇫🇷</span>
+              <div className="w-12 h-12 rounded-lg bg-blue-900/30 border border-blue-500/30 flex items-center justify-center text-blue-400 font-bold text-lg flex-shrink-0">FR</div>
               <div>
                 <h2 className="text-xl font-bold mb-2">French Perspective</h2>
                 <p className="text-[var(--foreground-muted)] mb-4">

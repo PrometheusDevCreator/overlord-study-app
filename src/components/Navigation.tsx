@@ -5,17 +5,17 @@ import { usePathname } from 'next/navigation';
 import { useProgress } from '@/lib/progress-context';
 
 const navItems = [
-  { href: '/', label: 'Home', icon: '🏠' },
-  { href: '/start-here', label: 'Start Here', icon: '📖' },
-  { href: '/modules', label: 'Modules', icon: '📚' },
-  { href: '/timeline', label: 'Timeline', icon: '📅' },
-  { href: '/maps', label: 'Map Room', icon: '🗺️' },
-  { href: '/museum', label: 'Museum', icon: '🏛️' },
-  { href: '/videos', label: 'Videos', icon: '🎬' },
-  { href: '/flashcards', label: 'Flashcards', icon: '🃏' },
-  { href: '/quizzes', label: 'Quizzes', icon: '✍️' },
-  { href: '/glossary', label: 'Glossary', icon: '📝' },
-  { href: '/sources', label: 'Sources', icon: '📎' },
+  { href: '/', label: 'Home' },
+  { href: '/start-here', label: 'Start Here' },
+  { href: '/modules', label: 'Modules' },
+  { href: '/timeline', label: 'Timeline' },
+  { href: '/maps', label: 'Map Room' },
+  { href: '/museum', label: 'Museum' },
+  { href: '/videos', label: 'Videos' },
+  { href: '/flashcards', label: 'Flashcards' },
+  { href: '/quizzes', label: 'Quizzes' },
+  { href: '/glossary', label: 'Glossary' },
+  { href: '/sources', label: 'Sources' },
 ];
 
 export default function Navigation() {
@@ -55,15 +55,20 @@ export default function Navigation() {
             {/* French perspective toggle */}
             <button
               onClick={toggleFrenchPerspective}
-              className={`flex items-center gap-2 px-3 py-1.5 rounded-full text-sm transition-all ${
+              className={`px-3 py-1.5 rounded-full text-sm font-medium transition-all flex items-center gap-2 ${
                 progress.frenchPerspectiveEnabled
                   ? 'bg-blue-900/30 border border-blue-500 text-blue-300'
                   : 'bg-[var(--background)] border border-[var(--border)] text-[var(--foreground-muted)] hover:border-blue-500'
               }`}
               title="Toggle French Perspective highlights"
             >
-              <span className="text-base">🇫🇷</span>
-              <span className="hidden sm:inline">French View</span>
+              French Perspective
+              {/* French tricolor flag */}
+              <span className="flex h-3 w-5 rounded-sm overflow-hidden border border-white/20">
+                <span className="w-1/3 bg-[#0055a4]" />
+                <span className="w-1/3 bg-white" />
+                <span className="w-1/3 bg-[#ef4135]" />
+              </span>
             </button>
           </div>
         </div>
@@ -78,14 +83,13 @@ export default function Navigation() {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium whitespace-nowrap transition-all ${
+                className={`px-3 py-2 rounded-lg text-sm font-medium whitespace-nowrap transition-all ${
                   isActive
                     ? 'bg-[var(--accent-gold)]/10 text-[var(--accent-gold)] border border-[var(--accent-gold)]/30'
                     : 'text-[var(--foreground-muted)] hover:text-[var(--foreground)] hover:bg-[var(--background)]'
                 }`}
               >
-                <span className="text-base">{item.icon}</span>
-                <span className="hidden sm:inline">{item.label}</span>
+                {item.label}
               </Link>
             );
           })}

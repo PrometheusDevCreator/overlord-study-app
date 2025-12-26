@@ -11,6 +11,7 @@ export default function ModulePage() {
   const moduleId = params.id as string;
   const module = getModuleById(moduleId);
   const { progress, markCardRead, markModuleComplete } = useProgress();
+  const frenchEnabled = progress.frenchPerspectiveEnabled;
 
   // Helper functions
   const isCardRead = (modId: string, cardId: string) => {
@@ -109,13 +110,17 @@ export default function ModulePage() {
               </div>
               <p className="text-[var(--foreground-muted)] whitespace-pre-line">{card.content}</p>
 
-              {card.frenchPerspective && (
-                <div className="mt-4 p-4 bg-blue-500/10 border border-blue-500/30 rounded-lg french-highlight">
+              {card.frenchPerspective && frenchEnabled && (
+                <div className="mt-4 p-4 bg-blue-500/20 border-2 border-blue-500/50 rounded-lg french-highlight animate-pulse-subtle">
                   <div className="flex items-center gap-2 mb-2">
-                    <span>🇫🇷</span>
-                    <span className="font-bold text-sm">French Perspective</span>
+                    <span className="flex h-4 w-6 rounded-sm overflow-hidden border border-white/30">
+                      <span className="w-1/3 bg-[#0055a4]" />
+                      <span className="w-1/3 bg-white" />
+                      <span className="w-1/3 bg-[#ef4135]" />
+                    </span>
+                    <span className="font-bold text-sm text-blue-300">French Perspective</span>
                   </div>
-                  <p className="text-sm text-[var(--foreground-muted)]">{card.frenchPerspective}</p>
+                  <p className="text-sm text-[var(--foreground)]">{card.frenchPerspective}</p>
                 </div>
               )}
             </div>
